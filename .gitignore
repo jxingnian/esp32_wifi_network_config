@@ -1,6 +1,5 @@
 # ESP-IDF specific
 build/
-sdkconfig
 sdkconfig.old
 dependencies.lock
 
