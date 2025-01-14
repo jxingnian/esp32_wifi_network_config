@@ -452,6 +452,7 @@ esp_err_t start_webserver(void)
     httpd_config_t config = HTTPD_DEFAULT_CONFIG();
     config.lru_purge_enable = true;
     config.max_uri_handlers = 9;
+    config.server_port = 8080;
     
     ESP_LOGI(TAG, "Starting server on port: '%d'", config.server_port);
     
